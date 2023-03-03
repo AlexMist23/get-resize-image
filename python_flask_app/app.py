@@ -33,4 +33,4 @@ def show_photo(photo):
     return render_template("index.html", resized_photo=full_filename, width=width, height=height)
 
 if __name__=='__main__':
-    app.run(debug=True) # run app
+    app.run() # run app
